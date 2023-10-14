@@ -100,7 +100,7 @@ li{
     transition: all 0.5s; /* Add transition to all effects to links  */
 }
 
-.navbar-list-item a {
+.navbar-list-item a:hover {
     text-decoration: none;
     color: #fff;
     /* Change link color to white */
@@ -124,7 +124,8 @@ li{
 } */
 
 .navbar-list-item:hover a{
-    font-weight: bold; /* Change link weight to bold because the orange was not visible enough */
+    font-weight: bold; 
+     /* Change link weight to bold because the orange was not visible enough */
 }
 
 /* Hamburger menu icon */
